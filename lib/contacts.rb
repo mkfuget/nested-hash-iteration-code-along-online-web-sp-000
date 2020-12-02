@@ -21,6 +21,7 @@ def remove_strawberry(contacts)
         if(key_inner == "favorite_ice_cream_flavors")
           puts value_inner
           value_inner.delete("strawberry")
+          binding.pry
         end
       end
     end
